@@ -5,7 +5,7 @@ image: "/posts/regression-title-img.png"
 tags: [Customer Loyalty, Machine Learning, Regression, Python]
 ---
 
-Our client, a grocery retailer, hired a market research consultancy to append market level customer loyalty information to the database.  However, only around 50% of the client's customer base could be tagged, thus the other half did not have this information present.  Let's use ML to solve this!
+In this project, we use data from a grocery retailer who hired a market research consultancy to append market level customer loyalty information to the database.  However, only around 50% of the client's customer base could be tagged, thus the other half did not have this information present.  We will use machine learning methods to solve this problem.
 
 # Table of contents
 
@@ -102,8 +102,8 @@ Using pandas in Python, we merged these tables together for all customers, creat
 import pandas as pd
 import pickle
 
-# import required data tables
-loyalty_scores = ...
+# import required data tables (tables below are omitted as this data is not publicly available)
+loyalty_scores = ... # Here the excel file would be read in using the pd.read_excel function with sheet_name='loyalty_scores' and similar for below.
 customer_details = ...
 transactions = ...
 
